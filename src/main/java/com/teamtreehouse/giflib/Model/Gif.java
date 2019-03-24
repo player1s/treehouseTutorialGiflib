@@ -3,8 +3,9 @@ package com.teamtreehouse.giflib.Model;
 import java.time.LocalDate;
 
 public class Gif {
+
     private String name;
-    private LocalDate dateUpload;
+    private LocalDate dateUploaded;
     private String username;
     private boolean favorite;
 
@@ -16,12 +17,12 @@ public class Gif {
         this.name = name;
     }
 
-    public LocalDate getDateUpload() {
-        return dateUpload;
+    public LocalDate getDateUploaded() {
+        return dateUploaded;
     }
 
-    public void setDateUpload(LocalDate dateUpload) {
-        this.dateUpload = dateUpload;
+    public void setDateUploaded(LocalDate dateUploaded) {
+        this.dateUploaded = dateUploaded;
     }
 
     public String getUsername() {
@@ -40,9 +41,9 @@ public class Gif {
         this.favorite = favorite;
     }
 
-    public Gif(String name, LocalDate dateUpload, String username, boolean favorite) {
+    public Gif(String name, LocalDate dateUploaded, String username, boolean favorite) {
         this.name = name;
-        this.dateUpload = dateUpload;
+        this.dateUploaded = dateUploaded;
         this.username = username;
         this.favorite = favorite;
     }
